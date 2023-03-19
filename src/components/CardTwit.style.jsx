@@ -87,3 +87,7 @@ position: absolute;
 top: 226px;
 left: 0px;
 `
+export const ImgContainer = styled.div`
+
+
+`
