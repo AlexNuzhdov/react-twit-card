@@ -1,8 +1,9 @@
-import {Wrapper, Container, TitleTwit, Button, Section, IMG, ImgBoy, Content, Counter, ImgRec,ImgContainer} from './CardTwit.style'
+import {Wrapper, Container, TitleTwit, Button, Section, IMG, ImgBoy, Content, Counter, ImgRec, ImgContainer, LogoImg} from './CardTwit.style'
 import picture2 from '../assets/picture2 1.png'
 import boy from '../assets/boy.png'
 import React, { useState, useEffect } from "react";
-import picture1 from '../assets/Rectangle 1.png'
+import picture1 from '../assets/Rectangle 1.png';
+import Logo from '../assets/Logo.png';
 
 
 const Card = () => {
@@ -48,6 +49,7 @@ const Card = () => {
 
         <Container>
             <Wrapper>
+                <LogoImg src={Logo} alt='logo'></LogoImg>
                 <IMG src={picture2} alt=''></IMG>
                 <ImgRec src={picture1} alt='boy'></ImgRec>
                 <ImgContainer>

@@ -59,7 +59,7 @@ padding-top: 28px;
 export const ImgBoy = styled.img`
   width: 80px;
   height: 80px;
-  padding-left: 60px;
+
   margin-bottom: 26px;
   position: relative;
 `
@@ -88,6 +88,13 @@ top: 226px;
 left: 0px;
 `
 export const ImgContainer = styled.div`
+display: flex;
+justify-content: center;
 
+`
+export const LogoImg = styled.img`
+position: absolute;
+top: 20px;
+left: 20px;
 
 `
